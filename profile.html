@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+
+<body>
+
+<div class="navigationbar">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#blog">Blog</a>
+    <a href="#profile">Profile</a>
+    <a href="#myinventory">My Inventory</a>
+</div>
+
+<div class="row">
+    <div class="column" id="column1">
+        <img src="image.jpg"/ alt="Foto Profil" width=100px class=center>
+    </div>
+    
+    <div class="column" id="column2">
+        <span id="namaku" class="tebal">Nama Anda</span><br>
+       <span class="fontabu">Front End Designer</span><br><br>
+        <button type="button" id="edit">Edit</button>
+        <button type="button" id="resume">Resume</button>
+    </div>
+    
+    <div class="column tebal" id="column3">
+        Availability<br>
+        Usia<br>
+        Lokasi<br>
+        Pengalaman<br>
+        Email<br>
+    </div>
+    
+    <div class="column fontabu" id="column4">
+        Full Time<br>
+        17<br>
+        Jakarta, Indonesia<br>
+        2<br>
+        developer@gmail.com<br>
+    </div>
+</div>
+
+<div id="formulir">
+    <form action="home.html" method="post">
+        <div class="formnya">
+            <lable form="nama">Nama</lable><br>
+            <input type="text" id="name" name="name" placeholder="Nama Anda">
+        </div>
+        <div class="formnya"><lable form="role">Role</lable><br>
+            <input type="text" id="role" name="role" placeholder="Jabatan">
+        </div>
+        <div class="formnya"><lable form="ava">Availability</lable><br>
+            <input type="text" id="ava" name="ava" placeholder="Full/Part Time">
+        </div>
+        <div class="formnya"><lable form="age">Age</lable><br>
+            <input type="number" id="age" name="age" placeholder="Usia Anda">
+        </div>
+        <div class="formnya"><lable form="loc">Lokasi</lable><br>
+            <input type="text" id="loc" name="loc" placeholder="Lokasi Saat Ini">
+        </div>
+        <div class="formnya"><lable form="exp">Years Experience</lable><br>
+            <input type="number" id="exp" name="exp" placeholder="Tahun Pengalaman">
+        </div>
+        <div class="formnya"><lable form="email">Email</lable><br>
+            <input type="email" id="email" name="email" placeholder="namaanda@email.com">
+        </div>
+        <input type="submit" value="Submit" id="submit">    
+    </form>
+</div>
+
+
+
+
+
+
+</body>

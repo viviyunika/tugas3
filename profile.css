@@ -1,0 +1,90 @@
+body {
+    background-color:#f7f9fc;
+    font-family: Arial;  }
+
+.navigationbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-transform: uppercase;}
+
+.navigationbar a {
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;}
+
+.tebal {font-weight: bold;}
+
+#namaku {font-size: 40px;}
+
+.row {
+    background-color:white;
+    padding:50px;
+    margin:40px 70px 0px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+#column1 {
+    float: left;
+    width: 10%;}
+
+#column2 {
+    margin-left: 20px;
+    float: left;
+    width:50%;}
+
+#column3 {
+    float: left;
+    width:15%;}
+
+#column4 {
+    float: left;
+    width:20%;}
+
+.fontabu {color: #8c8b8b;}
+
+#formulir {
+    background-color:white;
+    margin:50px 70px 0px;
+    padding:50px;}
+
+select, input {width: 100%;}
+
+#submit {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    border-radius:5px;
+    border-color:white;
+}
+
+#edit {
+    background-color:#2046f5;
+    color: white;
+    padding: 10px 15px;
+    border-radius:5px;
+    border-color:white;
+}
+
+#resume {
+    background-color:white;
+    color: green;
+    padding: 10px 15px;
+    border-radius:5px;
+    border-color:white;
+}
+
+.formnya {margin: 0px 0px 10px 0px}
